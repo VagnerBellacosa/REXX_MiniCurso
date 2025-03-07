@@ -1,0 +1,19 @@
+/* rexx * /
+
+/* BÔNUS — Script “War Room Quick Scan”  */
+/* QUICK STORAGE INCIDENT SCAN           */
+
+SAY "=== STORAGE STATUS ==="
+ADDRESS TSO "CONSOLE 'D M=STOR'"
+
+SAY "=== PAGING ==="
+ADDRESS TSO "CONSOLE 'D ASM'"
+
+SAY "=== CSA ==="
+ADDRESS TSO "CONSOLE 'D M=CSA'"
+
+SAY "=== ACTIVE JOBS ==="
+ADDRESS TSO "CONSOLE 'D A'"
+
+SAY "=== DASD ==="
+ADDRESS TSO "CONSOLE 'D U,DASD'"
