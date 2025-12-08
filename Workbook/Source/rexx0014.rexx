@@ -1,0 +1,10 @@
+/*REXX*/
+
+SAY 'DIGITE SEU NOME:'
+
+PULL AUX_NOME
+
+SAY ' '
+SAY ' '
+SAY ' '
+SAY ' OLA CARO COLEGA ' || AUX_NOME

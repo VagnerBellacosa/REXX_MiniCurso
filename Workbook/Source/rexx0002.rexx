@@ -1,0 +1,12 @@
+/* REXX */
+
+/* EXEMPLO DE LAùO REPETIùAO - DO */
+
+/* TESTE OK */
+DO I = 1 TO 5
+   IF I = 3 THEN SIGNAL FIM
+END
+
+FIM:
+SAY "ACABOU"
+EXIT
