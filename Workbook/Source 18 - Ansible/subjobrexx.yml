@@ -1,0 +1,4 @@
+- name: Executar REXX
+  zos_tso_command:
+    commands:
+      - "EXEC 'IBMUSER.WORKBOOK.REXX(SUBJOB)'"
