@@ -1,4 +1,23 @@
 /* REXX */
+
+/* REXX **************************************************************/
+/* PROGRAM NAME : SYSINFO DISPLAY                                   */
+/* DESCRIPTION  : EXIBE TELA COM INFORMACOES BASICAS DO SISTEMA	    */
+/*                                                                  */
+/* AUTHOR       : Vagner Bellacosa                                  */
+/* AREA         : Mainframe Education LAB                           */
+/* COMPANY      : BELLACOSA MAINFRAME                               */
+/* CREATED ON   : 15/12/2025                                        */
+/* VERSION      : 1.0                                               */
+/*                                                                  */
+/* ================================================================ */
+/* CHANGE HISTORY                                                   */
+/* ---------------------------------------------------------------  */
+/* 1.0  15/12/2025  Initial version                                 */
+/* ================================================================ */
+/*                                                                  */
+
+
 /* SYSINFOZ - System Information Dashboard */
 /* Bellacosa Mode 😎 */
 
