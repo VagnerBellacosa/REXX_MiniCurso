@@ -1,7 +1,7 @@
-/* STORAGECHECK */
+/* VTOCCHK */
 
-ADDRESS OPER
-"D M=STOR"
+ADDRESS TSO
+"LISTCAT LEVEL(*)"
 
 do i=1 to queued()
  pull line

@@ -1,9 +1,9 @@
-/* JOBSTATUS */
+/* CHANHEALTH */
 
 ADDRESS OPER
-"D A,L"
+"D M=CHP"
 
-say "ACTIVE JOBS"
+say "CHANNEL HEALTH"
 
 do i=1 to queued()
  pull line

@@ -1,9 +1,7 @@
-/* JOBSTATUS */
+/* CPUSTATUS */
 
 ADDRESS OPER
-"D A,L"
-
-say "ACTIVE JOBS"
+"D M=CPU"
 
 do i=1 to queued()
  pull line

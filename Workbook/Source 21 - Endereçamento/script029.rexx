@@ -1,9 +1,7 @@
-/* JOBSTATUS */
+/* XCFSTATUS */
 
 ADDRESS OPER
-"D A,L"
-
-say "ACTIVE JOBS"
+"D XCF,STR"
 
 do i=1 to queued()
  pull line
