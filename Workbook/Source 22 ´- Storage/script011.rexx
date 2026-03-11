@@ -1,0 +1,2 @@
+ARG job
+ADDRESS SDSF "ISFEXEC CMD '/D A,JOB="job"'"
