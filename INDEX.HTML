@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>🚀 Bootcamp REXX Mainframe | Do Zero à Automação z/OS</title>
+  <meta name="description" content="Aprenda REXX no mainframe com um bootcamp prático: lógica, loops, funções, I/O, batch e automação real no z/OS.">
+  <meta name="keywords" content="REXX, mainframe, zOS, automação, COBOL, ISPF, TSO, programação">
+  <meta name="author" content="Bellacosa Mainframe">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bootcamp REXX Mainframe 🚀">
+  <meta property="og:description" content="Domine automação no z/OS com REXX">
+  <meta property="og:type" content="website">
+
+  <!-- CSS -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1e293b, #0f172a);
+      padding: 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #38bdf8;
+    }
+
+    .container {
+      padding: 30px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 15px #38bdf8;
+    }
+
+    h2 {
+      color: #22c55e;
+    }
+
+    code {
+      display: block;
+      background: #020617;
+      padding: 10px;
+      border-radius: 8px;
+      overflow-x: auto;
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #94a3b8;
+    }
+
+    .btn {
+      background: #38bdf8;
+      color: #020617;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🚀 Bootcamp REXX Mainframe</h1>
+  <p>Do zero à automação real no z/OS 💣</p>
+  <a href="#conteudo" class="btn">Começar agora</a>
+</header>
+
+<div class="container" id="conteudo">
+
+  <div class="card">
+    <h2>📊 Visão Geral</h2>
+    <p>Uma jornada completa de automação no mainframe:</p>
+    <ul>
+      <li>⚙️ Setup + fundamentos</li>
+      <li>🔁 Lógica + loops</li>
+      <li>🧩 Funções</li>
+      <li>🛠 Modularização + erros</li>
+      <li>💾 I/O + sistema</li>
+      <li>🚀 Batch + avançado</li>
+    </ul>
+    <p><strong>💣 Insight:</strong> Isso é um bootcamp real de automação z/OS</p>
+  </div>
+
+  <div class="card">
+    <h2>🧪 Script 2 — MATH1</h2>
+    <code>
+say "Digite dois números:"
+parse pull a b
+
+say a "+" b "=" a + b
+say a "/" b "=" a / b
+    </code>
+    <p>📥 Input via teclado + operações básicas</p>
+  </div>
+
+  <div class="card">
+    <h2>🧪 Script 4 — MYMATH</h2>
+    <code>
+select
+ when op="add" then say a+b
+ when op="sub" then say a-b
+ otherwise say "Erro"
+end
+    </code>
+    <p>🧠 SELECT substitui múltiplos IFs</p>
+  </div>
+
+  <div class="card">
+    <h2>🔁 Loops — MATH3</h2>
+    <code>
+do forever
+ parse pull a b
+ if a="EXIT" then leave
+ say a+b
+end
+    </code>
+    <p>Controle total com DO, LEAVE e ITERATE</p>
+  </div>
+
+  <div class="card">
+    <h2>🧠 Validação — datatype()</h2>
+    <code>
+if datatype(a,"N")=0 then say "Erro"
+    </code>
+    <p>💣 Essencial para produção</p>
+  </div>
+
+  <div class="card">
+    <h2>⚡ Execução Batch</h2>
+    <code>
+//STEP1 EXEC PGM=IKJEFT01
+//SYSTSIN DD *
+  %MATH1
+/*
+    </code>
+    <p>Integração direta com JCL</p>
+  </div>
+
+  <div class="card">
+    <h2>🔥 Avançado — INTERPRET</h2>
+    <code>
+interpret "res="linha
+say res
+    </code>
+    <p>💣 Poder absurdo (use com cuidado)</p>
+  </div>
+
+  <div class="card">
+    <h2>🎯 Resultado Final</h2>
+    <ul>
+      <li>⚙️ Automação no z/OS</li>
+      <li>🛠 Ferramentas internas</li>
+      <li>🔗 Integração com utilitários</li>
+      <li>💡 Soluções reais</li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  <p>🔥 Bellacosa Mainframe | REXX Bootcamp</p>
+</footer>
+
+<!-- JS -->
+<script>
+  console.log("🚀 Bootcamp carregado com sucesso!");
+
+  document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('click', () => {
+      card.style.background = "#334155";
+    });
+  });
+</script>
+
+</body>
+</html>
