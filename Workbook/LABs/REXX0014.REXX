@@ -1,0 +1,3 @@
+/* REXX */
+address tso
+"LISTDS"
