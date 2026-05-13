@@ -1,0 +1,13 @@
+/* rexx */
+
+/* Tail dinamico com variavel */
+/* compound variable          */
+
+day.  = 'Unknown'
+day.1 = 'Monday'
+day.2 = 'Tuesday'
+day.3 = 'Wednesday'
+
+idx = 2
+Say day.idx
+

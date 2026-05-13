@@ -1,0 +1,11 @@
+/* rexx */
+
+/* PARSE COM LITERAL - separador fixo */
+
+input = 'John,Paul,George,Ringo'
+Parse Var input n1 ',' n2 ',' n3 ',' n4
+
+Say n1
+Say n2
+Say n3
+Say n4

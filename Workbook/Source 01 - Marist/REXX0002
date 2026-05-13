@@ -1,0 +1,13 @@
+/* REXX */
+
+/* EXEMPLO DE LACO REPETICAO - DO */
+
+/* TESTE OK */
+DO I = 1 TO 5
+   SAY I
+   IF I = 3 THEN SIGNAL FIM
+END
+
+FIM:
+SAY "ACABOU"
+EXIT

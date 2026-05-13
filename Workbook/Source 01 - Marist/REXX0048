@@ -1,0 +1,16 @@
+/* rexx */
+
+/* data stack - Diferenca entre PUSH e QUEUE */
+
+Queue 'A'
+Queue 'B'
+
+Push  'C'
+
+Parse Pull x1
+Parse Pull x2
+Parse Pull x3
+
+Say x1
+Say x2
+Say x3

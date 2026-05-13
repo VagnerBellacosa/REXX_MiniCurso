@@ -1,0 +1,13 @@
+/* rexx */
+
+/*** exemplo de leitura de dataset qsam */
+ADDRESS TSO
+
+"ALLOC FI(INFILE) DA('KC02746.ALUNOS.EXRC2.TESTE') SHR"
+"EXECIO * DISKR INFILE (STEM LIN. FINIS)"
+"FREE FI(INFILE)"
+
+DO i = 1 TO LIN.0
+  SAY LIN.i
+END
+

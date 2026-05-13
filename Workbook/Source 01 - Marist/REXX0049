@@ -1,0 +1,12 @@
+/* rexx */
+
+/* Ler dataset para memoria */
+
+"ALLOC DA('KC02746.VAGOUT.WRITEEZ') FI(INDD) SHR"
+
+'EXECIO * DISKR INDD (STEM rec. FINIS'
+
+Say 'Registros lidos:' rec.0
+
+"FREE FI(INDD)"
+

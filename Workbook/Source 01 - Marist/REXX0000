@@ -1,0 +1,8 @@
+/* rexx */                                                              00010003
+/*                                                                      00020001
+   meu primeiro programa rexx                                           00030001
+                              */                                        00040001
+                                                                        00041002
+/* ESTE EH UM EXEMPLO DE COMENTARIO DE UMA LINHA */                     00042002
+                                                                        00043002
+say 'Hello world!'                                                      00050000

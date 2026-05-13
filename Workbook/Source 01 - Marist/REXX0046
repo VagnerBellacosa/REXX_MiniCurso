@@ -1,0 +1,17 @@
+/* rexx */
+
+/* LOOPS + COMPOUND VARIABLES */
+
+Do i = 1 By 1
+  Say 'Digite um nome (ENTER para sair):'
+  Parse Pull name.i
+  If name.i = '' Then Leave
+End
+
+name.0 = i - 1
+
+Say '--- LISTA ---'
+Do j = 1 To name.0
+  Say j':' name.j
+End
+

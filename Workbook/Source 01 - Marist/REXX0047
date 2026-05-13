@@ -1,0 +1,14 @@
+/* rexx */
+
+/*  Capturar LISTA STATUS */
+
+x = OUTTRAP('out.')
+"LISTA STATUS"
+x = OUTTRAP('OFF')
+
+Say 'Total de linhas:' out.0
+Say '--- PRIMEIRAS 3 ---'
+
+Do i = 1 To Min(3,out.0)
+  Say out.i
+End

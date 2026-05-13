@@ -1,0 +1,24 @@
+/*REXX*/
+/*                                                     */
+
+Say 'Digite sua idade'
+
+/* atencao mainframe usa o EBCDIC logo ira converter para maiuscula */
+/* O que vocj digitar como sua idade sera convertido em letras      */
+/* maizsculas                                                       */
+
+Pull idade
+
+Say 'Digite seu nome e sobrenome'
+
+/* O REXX assume que as variaveis sco
+delimitadas por espagos */
+
+Pull fname fsobrenome fcomp
+
+say ' ola ' || fname || ' ' || fsobrenome  ' idade ' ||   idade
+
+say fname
+say fsobrenome
+say fcomp
+say fcomp2

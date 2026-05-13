@@ -1,0 +1,11 @@
+/* rexx */
+
+/* PARSE POR COLUNA */
+
+input = 'Germany   81M   138K   Frankfurt'
+Parse Var input =1 ctry =11 pop =17 area =24 cap
+
+Say ctry
+Say pop
+Say area
+Say cap

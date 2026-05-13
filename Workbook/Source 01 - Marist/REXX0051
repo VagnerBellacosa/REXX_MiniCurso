@@ -1,0 +1,11 @@
+/* rexx */
+
+/* PARSE (BaSICO) - Palavra por palavra */
+text = 'IBM Mainframe eh poderoso'
+Parse Var text a b c d
+
+Say a
+Say b
+Say c
+Say d
+

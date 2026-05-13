@@ -1,0 +1,13 @@
+ /*REXX*/
+
+ /* SIMULA ERRO */
+ DO WHILE QUEUED() > 0
+    PARSE PULL .
+ END
+
+
+ ERROR:
+    SIGNAL OFF ERROR
+    SAY "SOURCE ? " SOURCELINE(SIGL)
+    SAY "FAILED... RC=" RC
+    EXIT 20

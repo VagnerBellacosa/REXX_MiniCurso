@@ -1,0 +1,22 @@
+/*REXX*/
+/*                                                     */
+
+/* atencao mainframe usa o EBCDIC logo ira converter para maiuscula */
+/* O que vocj digitar como sua idade sera convertido em letras      */
+/* maizsculas                                                       */
+
+/* o mesmo que acima, mas a entrada nco i convertida para maizsculas */
+say ' Digite um nome : '
+
+Pull nome1
+
+say nome1
+
+say ' '
+
+say ' Digite outro nome : '
+
+Parse Pull nome
+
+say nome
+

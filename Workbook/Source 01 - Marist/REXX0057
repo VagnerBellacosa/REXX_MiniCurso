@@ -1,0 +1,11 @@
+/* rexx */
+
+/* PARSE AVANcADO (MATCH POR VARIaVEL) */
+
+delim = '/'
+Parse Value '2025/12/18' With year (delim) month (delim) day
+
+Say year
+Say month
+Say day
+

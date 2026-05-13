@@ -1,0 +1,15 @@
+/* rexx */
+
+/* Inicializa o stem com valor default */
+/* Array simples com valores default  */
+
+month. = 'INVALID MONTH'
+
+/* Define alguns meses */
+month.1 = 'January'
+month.2 = 'February'
+month.3 = 'March'
+
+Say month.1
+Say month.3
+Say month.12
