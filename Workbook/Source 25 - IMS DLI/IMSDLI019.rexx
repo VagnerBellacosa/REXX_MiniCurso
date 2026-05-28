@@ -1,0 +1,11 @@
+/* rexx */
+
+/* ADDRESS IMS */
+
+"CMD '/DIS LOCK ALL'"
+
+DO FOREVER
+   PARSE PULL L
+   IF L = "" THEN LEAVE
+   SAY L
+END

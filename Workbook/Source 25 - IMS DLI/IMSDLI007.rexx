@@ -1,0 +1,8 @@
+/* rexx */
+
+/* Iniciar Banco IMS */
+ADDRESS IMS
+
+"CMD '/START DB CLIENTDB'"
+
+SAY "BANCO INICIADO"

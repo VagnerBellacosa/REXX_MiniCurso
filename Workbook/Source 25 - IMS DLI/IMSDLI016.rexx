@@ -1,0 +1,10 @@
+/* rexx */
+
+/* Ler SYSOUT IMS */
+ADDRESS SDSF
+
+"ISFEXEC ST"
+
+DO I = 1 TO JNAME.0
+   SAY JNAME.I
+END

@@ -1,0 +1,8 @@
+/* rexx */
+
+/* Automatizar Recovery */
+ADDRESS IMS
+
+"CMD '/START RECOVERY DB CLIENTDB'"
+
+SAY "RECOVERY ACIONADO"

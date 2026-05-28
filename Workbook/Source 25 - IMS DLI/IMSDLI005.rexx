@@ -1,0 +1,13 @@
+/* rexx */
+
+/* Automatizar /DIS A */
+
+ADDRESS IMS
+
+"CMD '/DIS A'"
+
+DO FOREVER
+   PARSE PULL LINHA
+   IF LINHA = "" THEN LEAVE
+   SAY LINHA
+END

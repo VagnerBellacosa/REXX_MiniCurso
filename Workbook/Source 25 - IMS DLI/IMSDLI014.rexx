@@ -1,0 +1,13 @@
+/* rexx */
+
+/* Validar Banco Ativo */
+ADDRESS IMS
+
+"CMD '/DIS DB CLIENTDB'"
+
+PARSE PULL X
+
+IF POS("STOPPED",X) > 0 THEN
+   SAY "BANCO PARADO"
+ELSE
+   SAY "BANCO ATIVO"

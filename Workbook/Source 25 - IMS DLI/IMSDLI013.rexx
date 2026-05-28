@@ -1,0 +1,11 @@
+/* rexx */
+
+/* Reiniciar Região IMS */
+ADDRESS IMS
+
+"CMD '/STOP REGION REG1'"
+
+ADDRESS TSO "WAIT 5"
+
+ADDRESS IMS
+"CMD '/START REGION REG1'"
