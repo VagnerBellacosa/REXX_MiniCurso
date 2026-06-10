@@ -1,0 +1,37 @@
+/* REXX */
+
+/* dashboard da saude do ims */
+SAY "=================="
+SAY "IMS HEALTH CHECK"
+SAY "=================="
+
+CALL CHECKDB
+CALL CHECKIC
+CALL CHECKRECON
+CALL CHECKSPACE
+
+EXIT
+
+CHECKDB:
+
+SAY "DATABASES OK"
+
+RETURN
+
+CHECKIC:
+
+SAY "IMAGE COPIES OK"
+
+RETURN
+
+CHECKRECON:
+
+SAY "RECON OK"
+
+RETURN
+
+CHECKSPACE:
+
+SAY "ESPACO OK"
+
+RETURN

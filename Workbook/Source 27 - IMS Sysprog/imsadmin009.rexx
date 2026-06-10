@@ -1,0 +1,9 @@
+/* REXX */
+
+/* comparar dbdlib producao e homologacao */
+ADDRESS TSO
+
+"SUPERC COMPARE PROD.DBDLIB TEST.DBDLIB"
+
+IF RC > 0 THEN
+   SAY "DIFERENCAS ENCONTRADAS"
