@@ -1,0 +1,5 @@
+--- Módulo 3 - Buffer Pool Advisor
+SELECT
+BPNAME,
+HITRATIO
+FROM SYSIBM.BP_METRICS
